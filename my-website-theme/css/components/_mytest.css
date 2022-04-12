@@ -81,6 +81,6 @@
 .header .row-fluid .menu--desktop{
     display: flex;
     justify-content: flex-end;
-
+    color:#000;
 
 }
