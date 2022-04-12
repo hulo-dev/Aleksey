@@ -1,0 +1,63 @@
+[ {
+  "id" : "db60d53b-7509-2127-843f-15f60e6f0905",
+  "name" : "text_btn",
+  "display_width" : null,
+  "label" : "Text_btn",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Login"
+}, {
+  "id" : "b57913de-3ee3-b776-19d9-1546b8231946",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "10f0b70e-1f70-d0dc-4ae9-d3d3780842c7",
+    "name" : "color_text_btn",
+    "display_width" : null,
+    "label" : "Color text btn",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : "#000000",
+      "opacity" : 100
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "color_text_btn" : {
+      "color" : "#000000",
+      "opacity" : 100
+    }
+  }
+}, {
+  "id" : "dd261a1e-d9ed-efc7-6db9-cd45e76441dd",
+  "name" : "image_btn",
+  "display_width" : null,
+  "label" : "Image Btn",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://25563024.fs1.hubspotusercontent-eu1.net/hubfs/25563024/Vector.svg",
+    "alt" : "Vector",
+    "loading" : "lazy",
+    "width" : 14,
+    "height" : 14,
+    "max_width" : 14,
+    "max_height" : 14
+  }
+} ]
